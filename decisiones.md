@@ -17,3 +17,10 @@ DIGITAL BUSINESS CLUB LLC en web, Business Manager y verificación de Meta.
 oficial con nombre, dirección y EIN que Meta coteja.
 **Cambio de redacción:** se quita «registered in New Mexico» porque la carta no indica el estado de constitución;
 se dice «United States limited liability company», que sí consta.
+
+## D3 · 22/10/2026 · Rediseño y sin teléfono público (modifica D1 y D2)
+**Qué:** diseño institucional nuevo (mismos datos legales). Se retira el teléfono +34 de la web (es el personal de Manu)
+hasta que elija un número de empresa; el mismo número deberá ir en web y en la información del negocio de Meta.
+Se quita contact@ (no existe el buzón). Redacción suavizada tras revisión (Sonnet, por cupo de Fable agotado):
+«due diligence», «analysis» y «match» → «information review», «overview», «introduce».
+**Por qué:** petición de Manu (web poco profesional; teléfono personal) y riesgo de leerse como actividad regulada.
