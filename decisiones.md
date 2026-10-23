@@ -24,3 +24,9 @@ hasta que elija un número de empresa; el mismo número deberá ir en web y en l
 Se quita contact@ (no existe el buzón). Redacción suavizada tras revisión (Sonnet, por cupo de Fable agotado):
 «due diligence», «analysis» y «match» → «information review», «overview», «introduce».
 **Por qué:** petición de Manu (web poco profesional; teléfono personal) y riesgo de leerse como actividad regulada.
+
+## D4 · 22/10/2026 · Teléfono de empresa en la web (modifica D3)
+**Qué:** se publica +1 (505) 369-2676 (número de EE. UU. comprado por Manu en Dingtone), el mismo que figura en la
+verificación de Meta. El +34 personal nunca vuelve a la web.
+**Por qué:** Meta solo admite prefijos +1 para una empresa de EE. UU.; publicar el número lo asocia al negocio y
+mantiene web y Meta coherentes.

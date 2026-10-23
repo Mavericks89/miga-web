@@ -4,8 +4,8 @@ SITE = "https://migaworldwide.com"
 LEGAL = "NEXILON LLC"
 ADDR = "1209 Mountain Road Pl NE, Ste N, Albuquerque, NM 87110, USA"
 ADDR_HTML = "1209 Mountain Road Pl NE, Ste N<br>Albuquerque, NM 87110, USA"
-PHONE = ""  # sin teléfono público hasta que Manu elija número (22/10/2026)
-PHONE_TEL = ""
+PHONE = "+1 (505) 369-2676"  # número de empresa (Dingtone), el mismo que en Meta; nunca el personal
+PHONE_TEL = "+15053692676"
 EMAIL = "info@migaworldwide.com"
 YEAR = "2026"
 PHONE_FOOT = f'<a href="tel:{PHONE_TEL}">{PHONE}</a>' if PHONE else ""
