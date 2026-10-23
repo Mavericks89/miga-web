@@ -31,6 +31,8 @@ def page(path, title, desc, body, current, meta_comment=False):
   <meta property="og:description" content="{desc}">
   <meta property="og:url" content="{canon}">
   <meta property="og:image" content="{SITE}/assets/og.png">
+  <meta property="og:image:alt" content="MIGA Worldwide">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
@@ -63,9 +65,9 @@ home = f"""<section class="hero"><div class="wrap">
   <h2>What we do</h2>
   <p class="lead">We help qualified counterparties find each other across borders and give them the information they need to start a conversation.</p>
   <div class="grid">
-    <div class="card"><h3>Opportunity analysis</h3><p>We review real estate projects and present them in a clear, comparable format.</p></div>
-    <div class="card"><h3>Commercial due diligence</h3><p>We check the commercial information provided by developers before an introduction is made.</p></div>
-    <div class="card"><h3>Introductions</h3><p>We connect investors and developers whose objectives fit, so they can negotiate directly.</p></div>
+    <div class="card"><h3>Opportunity analysis</h3><p>We present the information developers provide in a clear format, without recommending any project.</p></div>
+    <div class="card"><h3>Commercial due diligence</h3><p>We review the commercial information that developers share before an introduction is made. This is not an assessment or recommendation of any investment.</p></div>
+    <div class="card"><h3>Introductions</h3><p>We connect investors and developers whose objectives fit, so they can talk directly and decide independently.</p></div>
   </div>
 </div></section>
 <section class="alt"><div class="wrap">
@@ -79,7 +81,7 @@ home = f"""<section class="hero"><div class="wrap">
 <section><div class="wrap">
   <h2>Who it is for</h2>
   <div class="grid">
-    <div class="card"><h3>Investors and family offices</h3><p>Looking for real estate projects outside their home market, with a single point of contact for the first steps.</p></div>
+    <div class="card"><h3>Investors and family offices</h3><p>Looking for real estate projects outside their home market, with a clear first point of contact.</p></div>
     <div class="card"><h3>Developers</h3><p>Looking to present their projects to international investors in a structured way.</p></div>
   </div>
   <p style="margin-top:32px"><a class="btn" href="/contact/">Get in touch</a></p>
@@ -87,7 +89,7 @@ home = f"""<section class="hero"><div class="wrap">
 
 about = f"""<div class="page"><div class="wrap prose">
   <h1>About us</h1>
-  <p>MIGA Worldwide is a B2B marketplace for international real estate investment. We connect investors and family offices with developers and real estate opportunities in Europe and Latin America, and we support the first stage of the process with opportunity analysis and commercial due diligence.</p>
+  <p>MIGA Worldwide is a B2B marketplace for international real estate investment. We connect investors and family offices with developers and real estate opportunities in Europe and Latin America, and we support the first stage of the process with opportunity analysis and a review of the commercial information provided by developers.</p>
   <h2>Who operates MIGA Worldwide</h2>
   <p>MIGA Worldwide is a brand operated by <strong>{LEGAL}</strong>, a Limited Liability Company registered in the State of New Mexico, USA.</p>
   <address>
