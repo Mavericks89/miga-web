@@ -1,7 +1,7 @@
 import os, sys
 ROOT = sys.argv[1]
 SITE = "https://migaworldwide.com"
-LEGAL = "DIGITAL BUSINESS CLUB LLC"
+LEGAL = "NEXILON LLC"
 ADDR = "1209 Mountain Road Pl NE, Ste N, Albuquerque, NM 87110, USA"
 PHONE = "+34 643 41 10 43"
 PHONE_TEL = "+34643411043"
@@ -91,7 +91,7 @@ about = f"""<div class="page"><div class="wrap prose">
   <h1>About us</h1>
   <p>MIGA Worldwide is a B2B marketplace for international real estate investment. We connect investors and family offices with developers and real estate opportunities in Europe and Latin America, and we support the first stage of the process with opportunity analysis and a review of the commercial information provided by developers.</p>
   <h2>Who operates MIGA Worldwide</h2>
-  <p>MIGA Worldwide is a brand operated by <strong>{LEGAL}</strong>, a Limited Liability Company registered in the State of New Mexico, USA.</p>
+  <p>MIGA Worldwide is a brand operated by <strong>{LEGAL}</strong>, a United States limited liability company.</p>
   <address>
     <strong>{LEGAL}</strong><br>
     {ADDR}<br>
@@ -140,7 +140,7 @@ terms = f"""<div class="page"><div class="wrap prose">
   <h1>Terms of Use</h1>
   <p>Last updated: 22 October 2026</p>
   <h2>1. Operator</h2>
-  <p>This website (migaworldwide.com) is operated by <strong>{LEGAL}</strong>, a Limited Liability Company registered in New Mexico, USA, with address at {ADDR}, under the brand MIGA Worldwide. Contact: <a href="mailto:{EMAIL}">{EMAIL}</a>.</p>
+  <p>This website (migaworldwide.com) is operated by <strong>{LEGAL}</strong>, a United States limited liability company with address at {ADDR}, under the brand MIGA Worldwide. Contact: <a href="mailto:{EMAIL}">{EMAIL}</a>.</p>
   <h2>2. Purpose of the website</h2>
   <p>This website provides general information about MIGA Worldwide, a B2B service that connects investors and developers in the real estate sector. Nothing on this website is an offer to sell, a solicitation of an offer to buy, or a recommendation regarding any security, investment or property.</p>
   <h2>3. No advice</h2>
@@ -157,10 +157,10 @@ terms = f"""<div class="page"><div class="wrap prose">
   <p>For any question about these terms, write to <a href="mailto:{EMAIL}">{EMAIL}</a>.</p>
 </div></div>"""
 
-D = "MIGA Worldwide is a B2B marketplace connecting investors and family offices with real estate developers and opportunities in Europe and Latin America. Operated by DIGITAL BUSINESS CLUB LLC."
+D = "MIGA Worldwide is a B2B marketplace connecting investors and family offices with real estate developers and opportunities in Europe and Latin America. Operated by NEXILON LLC."
 page("", "MIGA Worldwide | International Real Estate Investment Marketplace", D, home, "home", meta_comment=True)
-page("about", "About | MIGA Worldwide", "MIGA Worldwide is a brand operated by DIGITAL BUSINESS CLUB LLC, a New Mexico (USA) limited liability company.", about, "about")
-page("contact", "Contact | MIGA Worldwide", "Contact MIGA Worldwide (DIGITAL BUSINESS CLUB LLC): address, phone and email.", contact, "contact")
-page("privacy", "Privacy Policy | MIGA Worldwide", "Privacy Policy of MIGA Worldwide, operated by DIGITAL BUSINESS CLUB LLC.", privacy, "")
-page("terms", "Terms of Use | MIGA Worldwide", "Terms of Use of migaworldwide.com, operated by DIGITAL BUSINESS CLUB LLC.", terms, "")
+page("about", "About | MIGA Worldwide", "MIGA Worldwide is a brand operated by NEXILON LLC, a United States limited liability company.", about, "about")
+page("contact", "Contact | MIGA Worldwide", "Contact MIGA Worldwide (NEXILON LLC): address, phone and email.", contact, "contact")
+page("privacy", "Privacy Policy | MIGA Worldwide", "Privacy Policy of MIGA Worldwide, operated by NEXILON LLC.", privacy, "")
+page("terms", "Terms of Use | MIGA Worldwide", "Terms of Use of migaworldwide.com, operated by NEXILON LLC.", terms, "")
 print("built")
