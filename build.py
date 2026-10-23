@@ -14,7 +14,7 @@ def page(path, title, desc, body, current, meta_comment=False):
     nav = "".join(
         f'<a href="{href}"' + (' aria-current="page"' if key == current else "") + f">{label}</a>"
         for key, href, label in [("home","/","Home"),("about","/about/","About"),("contact","/contact/","Contact")])
-    verif = ('\n  <!-- META DOMAIN VERIFICATION: <meta name="facebook-domain-verification" content="PEGAR_CODIGO_AQUI" /> -->'
+    verif = ('\n  <meta name="facebook-domain-verification" content="yw71cjnn2fhqag37tvkx1z5cruil11" />'
              if meta_comment else "")
     html = f"""<!DOCTYPE html>
 <html lang="en">
